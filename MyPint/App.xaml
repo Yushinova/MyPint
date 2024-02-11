@@ -1,0 +1,10 @@
+﻿<Application x:Class="MyPint.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MyPint"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+     <local:BitmapConverter x:Key="Converter"/>
+        <local:StringConverter x:Key="StrConvert"/>
+    </Application.Resources>
+</Application>
